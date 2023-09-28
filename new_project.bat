@@ -16,17 +16,17 @@ echo nmake > build.bat
 echo nmake all > build_all.bat
 echo nmake clean > clean.bat
 echo ..\bin\main > run.bat
-copy C:\projects\toolchain\shell\makefile makefile
-copy C:\projects\toolchain\shell\shell.bat shell.bat
+copy C:\dev\toolchain\cpp_starter_windows\makefile makefile
+copy C:\dev\toolchain\cpp_starter_windows\shell.bat shell.bat
 
 cd ..\src
-copy C:\projects\toolchain\shell\main.cpp main.cpp
+copy C:\dev\toolchain\cpp_starter_windows\main.cpp main.cpp
 
 mkdir vendor
 cd vendor
 mkdir types
 
 cd types
-copy C:\projects\toolchain\shell\types.hpp types.hpp
+copy C:\dev\toolchain\cpp_starter_windows\types.hpp types.hpp
 
 cd ../../../build
